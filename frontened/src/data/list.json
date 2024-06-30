@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Grilled Salmon",
+        "description": "A perfectly grilled salmon fillet served with a side of roasted vegetables.",
+        "image": "images/griiledSalmon.png",
+        "price": 18.99
+      },
+      {
+        "id": 2,
+        "name": "Margherita Pizza",
+        "description": "Classic pizza with fresh mozzarella, tomatoes, and basil.",
+        "image": "/images/pizza.png",
+        "price": 12.99
+      },
+      {
+        "id": 3,
+        "name": "Caesar Salad",
+        "description": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "/images/CaesarSalad.png",
+        "price": 9.99
+      },
+      {
+        "id": 4,
+        "name": "Spaghetti Carbonara",
+        "description": "Traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "image": "/images/sphagetti.png",
+        "price": 14.99
+      },
+      
+    {
+        "id": 5,
+        "name": "Chicken Alfredo",
+        "description": "Tender chicken breast with fettuccine pasta in a creamy Alfredo sauce.",
+        "image": "/images/chickenAlfredo.png",
+        "price": 15.99
+    },
+    {
+        "id": 6,
+        "name": "Beef Tacos",
+        "description": "Three soft tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+        "image": "/images/beefTaco.png",
+        "price": 10.99
+    },
+    {
+        "id": 7,
+        "name": "Shrimp Scampi",
+        "description": "Succulent shrimp sautéed in garlic butter and white wine, served over linguine.",
+        "image": "/images/shrimp.png",
+        "price": 17.99
+    },
+    {
+        "id": 8,
+        "name": "Vegetable Stir Fry",
+        "description": "A mix of fresh vegetables stir-fried in a savory sauce, served with rice.",
+        "image": "/images/vegetables.png",
+        "price": 11.99
+    },
+    {
+        "id": 9,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked ribs smothered in BBQ sauce, served with coleslaw and fries.",
+        "image": "/images/bbqRibs.png",
+        "price": 19.99
+    },
+    {
+        "id": 10,
+        "name": "Cheeseburger",
+        "description": "Juicy beef patty topped with cheddar cheese, lettuce, tomato, and onion on a toasted bun.",
+        "image": "/images/cheeseBurger.png",
+        "price": 8.99
+    },
+    {
+        "id": 11,
+        "name": "Fish and Chips",
+        "description": "Crispy battered fish fillets served with fries and tartar sauce.",
+        "image": "/images/fishChips.png",
+        "price": 13.99
+    },
+    {
+        "id": 12,
+        "name": "Greek Salad",
+        "description": "A refreshing salad with cucumbers, tomatoes, olives, feta cheese, and a tangy dressing.",
+        "image": "/images/greekSalad.png",
+        "price": 9.99
+    }
+]
