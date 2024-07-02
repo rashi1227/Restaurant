@@ -1,5 +1,6 @@
 import Dine from '../model/diningModal.js'; 
 
+
 export const getDishes = async (req, res) => {
     try {
         const dine = await Dine.find();
@@ -9,3 +10,6 @@ export const getDishes = async (req, res) => {
         res.status(500).json({ message: 'Server Error', error });
     }
 };
+
+ 
+

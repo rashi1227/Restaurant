@@ -1,21 +1,22 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import diningRoute from './route/dining.route.js';
+import diningRoute from './route/diningRoute.js';
+import userRoute from './route/userRoute.js'
 import cors from 'cors';
-import jwt from 'jsonwebtoken'
-const secretKey = "Rashi@43$23"
+
 
 dotenv.config();
 
 const app = express();
 app.use(cors());
+app.use(express.json());
 const port = process.env.PORT || 4001;
 const URI = process.env.MongoDBURI;
 
 
 // Connect to MongoDB
-mongoose.connect(URI, {
+mongoose.connect(URI, { 
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -24,24 +25,9 @@ mongoose.connect(URI, {
 
 // Define routes
 app.use('/menu', diningRoute);
+app.use('/' , userRoute);
 
-app.post('/login' ,(req,res)=>{
-  const user = {
-    id:1,
-    username: "Rashi",
-    password :123
-  }
-  jwt.sign({user},secretKey,{expiresIn:'300s'} ,(err, token)=>{
-    res.json({
-      token
-    })
 
-  })
-})
-
-function verifyToken  (req,res){
-
-}
 
 app.listen(port, () => {
   console.log(`Server started at ${port}`);
